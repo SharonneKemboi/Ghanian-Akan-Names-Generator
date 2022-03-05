@@ -45,4 +45,8 @@ input[type=number] {
   .container-fluid p{
       font-size: 20px;
   }
-  
+   footer{
+       display: flex;
+       justify-content: space-between;
+       font-style: italic;
+   }
