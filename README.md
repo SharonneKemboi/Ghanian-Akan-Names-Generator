@@ -1,7 +1,8 @@
 # Ghana-Akan-names-generator
 #### This is a simple web-page that generates a special Ghanian Akan name  and the day of the week that one was born based on ones birthday and their specific gender. 
 ### By Sharonne Kemboi , 06/03/2022
-![Screenshot](/images/akan2.png) (/images/Akan.png)
+![Screenshot](/images/akan2.png) 
+! [Screenshot](/images/Akan.png)
 
 
 ## Table of Content
