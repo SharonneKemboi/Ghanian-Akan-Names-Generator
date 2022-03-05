@@ -2,6 +2,8 @@ let malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femalenames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let dayofweek =["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
+
+
 function calculate() {
 
 var DD = document.getElementById("day").value;
@@ -26,6 +28,7 @@ var male = document.getElementById("secondgender").checked;
 
  mod - is the modulus function ( % )*/
 
+
  //use the syntax array.slice(start, end)-method that accepts two optional parameters
 
 var YY = year.slice(0, 2);
@@ -39,7 +42,7 @@ if (MM < 1 || MM > 12 || MM == 2 && DD > 29) {
   alert("PLEASE INPUT A VALID DAY");
 }
 
-//conditional statement
+
 if (female) {
   if (output == 1) {
     document.getElementById("output").innerHTML =
@@ -63,6 +66,9 @@ if (female) {
   document.getElementById("output").innerHTML =
     alert("Hey Beautiful!! You came into this world on a Sunday and your Special Akan name is: " + femalenames[0]);
 }
+}
+
+
 
 else if (male) {
   if (output == 1) {
@@ -95,9 +101,10 @@ alert("Enter Your Details Below!");
 
 
 $(document).ready(function () {
+
 $('#akanform').submit(function (b) {
 
-  // Prevent form submission which refreshes page
+  
   b.refreshPage();
 
 });
