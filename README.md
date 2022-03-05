@@ -55,7 +55,7 @@ The landing page is being hosted by GitHub Pages. The link to the page is:https:
 
 ## BDD
 Here are the features in summary:
-* Input of year of birth.
+* Input year of birth.
 * Input month of birth.
 * Input day of birth.
 * Select Gender.
@@ -75,8 +75,8 @@ Here are the features in summary:
 * Javascript.
 
 ## Reference
-* Java Script If Else Statements (https://www.w3schools.com/js/js_if_else.asp)
-* Random Name Generator | JavaScript (https://www.youtube.com/watch?v=zleqgBEFTYM)
+* [Java Script If Else Statements] (https://www.w3schools.com/js/js_if_else.asp)
+* [Random Name Generator | JavaScript] (https://www.youtube.com/watch?v=zleqgBEFTYM)
 
 ## Known Bugs
 * All known bugs were fixed (Bug fixed) . Seen any Bug? Feel free to reach me Asap!!
