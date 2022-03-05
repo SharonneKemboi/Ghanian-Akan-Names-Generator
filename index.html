@@ -35,39 +35,58 @@
            <div class="baby "><img src="images/blackbaby-1021x580.jpg" style="height: 30vh; width: 40vw; opacity: 0.55; margin-top: -60px;" alt="" srcset=""></div>
                 <div id="heading"> 
                   <h3 id="get">Do You Want to Know Your Akan Name?</h3>
-                  <p>Please see the Akan names below then enter your name to see your special Akan name and the day of the week that your were born!! </p>
+                  <p>Please enter the required details on the form below and see your special Akan name and the day of the week that your were born!! </p>
                 </div>
-                <h3 class="head4 mt-5 text-center">Example <span>of</span>  Akan <span>Names</span>  </h3>
-                  <p class="center text-center">Compare your results to the names displayed here!!.</p>
-
+        
+                <!--start of form-->
+                <form id="akanform">
+                  <label>MONTH</label>
+                  <input type="number" id="month" placeholder="Enter Month of Birth eg 05 for May" max="12" min="1" size="100px"><br><br>
+                  <label> DAY </labe>
+                    <input type="number" id="day" placeholder="Enter Day of Birth eg 25 if born on the 25th " max="31" min="1"><br><br>
+                    <label> YEAR </label>
+                    <input type="number" id="year" placeholder="Enter Year of Birth Eg: 1996 if born in 1996" max="2100" min="1900"><br><br>
+                    <label>GENDER</label>
+                    <input type="radio" name="gender" id="firstgender" value="female"> Female
+                    <input type="radio" name="gender" id="secondgender" value="male"> Male<br><br>
+                    <input type="submit" value="Submit" class="btn btn-success btn-lg" onclick="calculate()">
+                </form>
+              </div>
+                
+            </div>
                   <!--This container will show the available names-->
-                  <div class="flex-container">
-                    <div class="names1">
-                    <h3 class="headnames"><span> Male </span>Names</h3>
-                    <p>Sunday - Kwasi</p>
-                    <p>Monday - Kwadwo</p>
-                    <p>Tuesday - Kwabena</p>
-                    <p>Wednesday - Kwaku</p>
-                    <p>Thursday - Yaw</p>
-                    <p>Friday - Kofi</p>
-                    <p>Saturday - Kwame </p>
-                  </div>
-
-                  <div class = "names2">
-                    <h3 class="headnames"><span>Female</span> Names</h3>
-                    <p>Sunday - Akosua</p>
-                    <p>Monday - Adwoa</p>
-                    <p>Tuesday - Abenaa</p>
-                    <p>Wednesday - Akua</p>
-                    <p>Thursday - Yaa</p>
-                    <p>Friday - Afua</p>
-                    <p>Saturday - Ama</p>
-                  </div>
-
-                </div>
+      <div class="container">
+        <div class="jumbotron ml-3 text-light " style="background-color: black; margin-top: 20px;">
+          <h3 class="head4 mt-5 text-center">Example <span>of</span>  Akan <span>Names</span>  </h3>
+          <p class="center text-center">Compare your results to the names displayed here!!.</p>
+          <div class="flex-container">
+            <!--Female-->
+            <div class = "names1">
+                <h3 class="headnames"><span>Female</span> Names</h3>
+                <p>Sunday - Akosua</p>
+                <p>Monday - Adwoa</p>
+                <p>Tuesday - Abenaa</p>
+                <p>Wednesday - Akua</p>
+                <p>Thursday - Yaa</p>
+                <p>Friday - Afua</p>
+                <p>Saturday - Ama</p>
+              </div>
+            <div class="names2">
+               <h3 class="headnames"><span> Male </span>Names</h3>
+               <p>Sunday - Kwasi</p>
+               <p>Monday - Kwadwo</p>
+               <p>Tuesday - Kwabena</p>
+               <p>Wednesday - Kwaku</p>
+               <p>Thursday - Yaw</p>
+               <p>Friday - Kofi</p>
+               <p>Saturday - Kwame </p>
+            </div>
           </div>
-             
+        </div>
       </div>
+    
+ 
+       
   
       
  <!--Bootstrap JS -->
