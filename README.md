@@ -53,7 +53,7 @@ $ Make changes where need be.
 ### How To Access the Site
 The landing page is being hosted by GitHub Pages. The link to the page is:https://github.com/SharonneKemboi/Ghanian-Akan-Names-Generator
 
-##BDD
+## BDD
 Here are the features in summary:
 * Input of year of birth.
 * Input month of birth.
