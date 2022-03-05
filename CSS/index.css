@@ -28,3 +28,21 @@ span{
     line-height: 2vh;
     padding: 10px;
 }
+
+input[type=number] {
+    width: 100%;
+    padding: 6px;
+  }
+  
+  label {
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid transparent;
+    width: 100%;
+  }
+  
+  .container-fluid p{
+      font-size: 20px;
+  }
+  
