@@ -1,5 +1,6 @@
 let malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let femalenames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+let dayofweek =["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 
 // Returned values after calling functions//
@@ -12,25 +13,31 @@ var female = document.getElementById("firstgender").checked;
 var male = document.getElementById("secondgender").checked;
 
 
-//use the syntax array.slice(start, end)-method that accepts two optional parameters
+
+/*Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+ where;
+
+ CC - is the century digits. For example 1989 has CC = 19
+
+ YY - is the Year digits (1989 has YY = 89)
+
+ MM -  is the Month
+
+ DD - is the Day of the month 
+
+ mod - is the modulus function ( % )*/
+
+ //use the syntax array.slice(start, end)-method that accepts two optional parameters
 var YY = year.slice(0, 2);
 var YY = year.slice(2, 4);
 var CC = (YY - 1) / 100 + 1;
 var output= parseInt(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
 
-//use else if
-
-if (document.getElementById("firstgender").checked) {
-  var gender = 'female';
-
-} else {
-  var gender = 'male';
-
-}
 if (MM < 1 || MM > 12 || MM == 2 && DD > 29) {
-  alert("INVALID MONTH");
+  alert("PlEASE INPUT A VALID MONTH");
 } else if (DD < 1 || DD > 31) {
-  alert("INVALID DAY");
+  alert("PLEASE INPUT A VALID DAY");
 }
 
 //female function ----use of if statement
@@ -92,7 +99,6 @@ alert("Enter Your Details Below!");
 
 
 $(document).ready(function () {
-// Listen to submit event on the <form> itself!
 $('#akanform').submit(function (b) {
 
   // Prevent form submission which refreshes page
