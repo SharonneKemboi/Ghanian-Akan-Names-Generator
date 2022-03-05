@@ -3,6 +3,7 @@
 ### By Sharonne Kemboi , 06/03/2022
 ![Screenshot](/images/akan2.png) <br>
 
+
 ![Screenshot](/images/Akan.png)
 
 
@@ -10,11 +11,11 @@
 
 + [Description](#description)
 + [Installation and Setup Requirement](#Installation)
-+ [How to access the Site]
-+ [BDD](#Behavior Driven Development)
++ [How to access the site](#livelink)
++ [BDD](#Behavior-Driven-Development)
 + [Technology Used](#technology-used)
 + [Reference](#reference)
-+ [Known Bugs] ()
++ [Known Bugs](#knownbugs)
 + [License](#license)
 + [Authors Info](#author-Info)
 
