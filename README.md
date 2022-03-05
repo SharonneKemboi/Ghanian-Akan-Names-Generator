@@ -1,7 +1,9 @@
 # Ghana-Akan-names-generator
 #### This is a simple web-page that generates a special Ghanian Akan name  and the day of the week that one was born based on ones birthday and their specific gender. 
 ### By Sharonne Kemboi , 06/03/2022
-![Demo video](Video/Akan%20Names%20Generator.webm)
+![Design](/images/akan2.png)
+![alt text](/images/akan.png)
+
 
 ## Table of Content
 
@@ -44,6 +46,7 @@ $ Clone the project to your local machine.
 $ Run the code from VS Code through a liveserver to chrome browser.
 $ Make changes where need be.
 
+```
 
 ### How To Access the Site
 The landing page is being hosted by GitHub Pages. The link to the page is:https://github.com/SharonneKemboi/Ghanian-Akan-Names-Generator
@@ -85,4 +88,4 @@ Here are the features in summary:
 Feel free to add your contribution to the code.
 If you have any questions,comments or correctional advice,feel free to contact me
 * Email: @sharonnekay23@gmail.com.
-* [LinkedIn]()
+* [LinkedIn](https://www.linkedin.com/in/sharonne-vanessa-kemboi-a118bb135)
