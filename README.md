@@ -64,15 +64,15 @@ Here are the features in summary:
 
 ## Technology and Tools Used
 
-**The following include the list of technologies used:
+** The following include the list of technologies used:
 
-1.HTML
+* HTML
 
-2.CSS.
+* CSS.
 
-3.Bootsrap 
+* Bootsrap 
 
-4.Javascript.
+* Javascript.
 
 ## Reference
 * Java Script If Else Statements[https://www.w3schools.com/js/js_if_else.asp] 
