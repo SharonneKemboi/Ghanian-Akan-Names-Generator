@@ -9,3 +9,22 @@ p{
     font-size: 20px;
     line-height: 5vh;
 }
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+span{
+    color: green;
+    font-weight: bolder;
+}
+
+.flex-container p{
+    line-height: 2vh;
+    padding: 10px;
+}
