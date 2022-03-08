@@ -97,15 +97,4 @@ else if (male) {
 alert("Enter Your Details Below!");
 }
 }
-    
-
-
-$(document).ready(function () {
-
-$('#akanform').submit(function (b) {
-
-  
-  b.refreshPage();
-
-});
-});
+   
